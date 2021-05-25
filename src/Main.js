@@ -92,7 +92,6 @@ const Main = () => {
       return (beer.id >= startIndex) && (beer.id <= endIndex);
     })}/>}
       <Paginator handlePageClicked={handlePageClicked} handlePageTurned={handlePageTurned} pagePerTen={pagePerTen} firstPage={firstPage} lastPage={lastPage} beers={beers}/>
-    <div>helo</div>
     </div>
 
   );
